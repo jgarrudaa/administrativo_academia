@@ -106,7 +106,7 @@ BLOQUEADO
 
 ### 1. Clonar repositório
 ```bash
-git clone https://github.com/seu-repositorio
+git clone https://github.com/jgarrudaa/administrativo_academia.git
 ```
 
 ### 2. Backend
@@ -156,7 +156,7 @@ Basta abrir o arquivo `index.html` ou usar uma extensão tipo Live Server.
 
 ## 🌍 Deploy
 
-- 🔗 **Frontend:** 
+- 🔗 **Frontend:** https://administrativo-academia.vercel.app/
 - 🔗 **Backend (API):** https://api-backend-catraca.vercel.app
 
 ---
