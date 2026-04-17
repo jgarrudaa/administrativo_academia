@@ -418,7 +418,8 @@ Senha: (conforme configurado no .env)
 
 ## 🌍 Deploy
 
-- 🔗 **Frontend:** https://administrativo-academia.vercel.app/
+- 🔗 **Frontend Administrativo:** https://administrativo-academia.vercel.app/
+- 🔗 **Frontend Catraca:** https://catraca-academia-six.vercel.app/
 - 🔗 **Backend (API):** https://api-backend-catraca.vercel.app
 
 ---
