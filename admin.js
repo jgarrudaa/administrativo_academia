@@ -153,8 +153,13 @@ alunoForm.addEventListener('submit', async (e) => {
 
     const id = document.getElementById('alunoId').value;
     const nome = document.getElementById('nome').value;
-    const cpf = document.getElementById('cpf').value;
+    const cpf = document.getElementById('cpf').value.trim();
     const status = document.getElementById('status').value === "true"; 
+
+    if (!/^[0-9]{11}$/.test(cpf)) {
+        alert('CPF inválido. Informe exatamente 11 dígitos numéricos e sem letras.');
+        return;
+    }
 
     const dadosAluno = { nome, cpf, status };
 
