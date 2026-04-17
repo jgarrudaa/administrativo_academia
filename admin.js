@@ -1,4 +1,4 @@
-// const API_BASE_URL = 'https://api-backend-catraca.vercel.app'; 
+const API_BASE_URL = 'https://api-backend-catraca.vercel.app'; 
 
 // Referências do DOM
 const alunoForm = document.getElementById('alunoForm');
