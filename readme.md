@@ -411,8 +411,8 @@ Senha: (conforme configurado no .env)
 
 ## 👥 Colaboradores
 
-- 👤 **Seu nome:** https://github.com/jgarrudaa
-- 👤 **Parceiro:** https://github.com/DanielPupo
+- 👤 **João Guilherme** https://github.com/jgarrudaa
+- 👤 **Daniel Pupo** https://github.com/DanielPupo
 
 ---
 
