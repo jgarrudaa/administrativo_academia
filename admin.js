@@ -192,7 +192,12 @@ alunoForm.addEventListener('submit', async (e) => {
 
         const erro = await parseApiResponse(resposta);
         console.error("Erro ao salvar:", resposta.status, erro);
-        alert("Erro: " + (erro?.mensagem || erro?.erro || JSON.stringify(erro) || resposta.statusText));
+
+        const mensagem = typeof erro === 'string'
+            ? erro
+            : erro?.message || erro?.mensagem || erro?.erro || resposta.statusText || 'Erro desconhecido.';
+
+        alert(`Falha ao salvar: ${mensagem}`);
     } catch (erro) {
         console.error("Erro ao salvar:", erro);
         alert("Erro ao conectar com o servidor.");
