@@ -195,7 +195,7 @@ alunoForm.addEventListener('submit', async (e) => {
 
         const mensagem = typeof erro === 'string'
             ? erro
-            : erro?.message || erro?.mensagem || erro?.erro || resposta.statusText || 'Erro desconhecido.';
+            : erro?.message || erro?.mensagem || erro?.erro || erro?.error || resposta.statusText || 'Erro desconhecido.';
 
         alert(`Falha ao salvar: ${mensagem}`);
     } catch (erro) {
